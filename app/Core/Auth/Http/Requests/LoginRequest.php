@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Core\Auth\Http\Requests;
 
+use App\Core\Licensing\LicenseManager;
 use Illuminate\Auth\Events\Lockout;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
@@ -34,6 +35,12 @@ class LoginRequest extends FormRequest
     {
         $this->ensureIsNotRateLimited();
 
+        if ($this->usesPublicPasswordOnline()) {
+            RateLimiter::hit($this->throttleKey());
+
+            throw ValidationException::withMessages(['email' => __('auth.public_password')]);
+        }
+
         if (! Auth::attempt($this->only('email', 'password'), $this->boolean('remember'))) {
             RateLimiter::hit($this->throttleKey());
 
@@ -41,6 +48,14 @@ class LoginRequest extends FormRequest
         }
 
         RateLimiter::clear($this->throttleKey());
+    }
+
+    /** Sandi demo publik di luar localhost: siapa pun bisa menebaknya, jadi ditolak (kecuali situs demo). */
+    private function usesPublicPasswordOnline(): bool
+    {
+        return ! config('platform.demo.enabled')
+            && hash_equals((string) config('platform.admin.public_password'), (string) $this->input('password'))
+            && ! LicenseManager::isLocal($this->getHost(), $this->ip());
     }
 
     private function ensureIsNotRateLimited(): void

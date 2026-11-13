@@ -19,6 +19,9 @@ return [
         'name' => env('ADMIN_NAME', 'Administrator'),
         'email' => env('ADMIN_EMAIL', 'admin@example.com'),
         'password' => env('ADMIN_PASSWORD'),
+        // Sandi akun demo yang tertulis di README/.env.example (diketahui publik): hanya bisa dipakai login dari komputer
+        // sendiri (localhost) atau di situs demo (DEMO_MODE). Di domain online, admin wajib memakai sandi sendiri.
+        'public_password' => 'eduji-demo',
     ],
 
     'super_admin_role' => 'super-admin',

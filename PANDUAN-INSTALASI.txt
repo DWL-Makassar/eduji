@@ -53,6 +53,8 @@ C. MENGISI PENGATURAN (.env)
      ADMIN_NAME="Nama Admin"
      ADMIN_EMAIL=email-admin@domain-sekolah.sch.id
      ADMIN_PASSWORD=buat-kata-sandi-yang-kuat
+   PENTING: ganti ADMIN_EMAIL dan ADMIN_PASSWORD bawaan (admin@sekolah.test / eduji-demo).
+   Sandi demo itu diketahui umum, jadi ditolak saat login dari domain online.
    Agar fitur lupa kata sandi bisa mengirim email, isi juga bagian MAIL_* dengan akun email hosting Anda.
 3. Jangan ubah APP_ENV=production dan APP_DEBUG=false.
 
@@ -111,4 +113,11 @@ G. MASALAH YANG SERING MUNCUL
   (atau perintah ln -s di bagian D untuk Cara 2).
 - Unggah gambar gagal: naikkan upload_max_filesize dan post_max_size menjadi minimal 6M.
 - Folder storage dan bootstrap/cache harus bisa ditulis (izin 755 atau 775).
-- Mencoba di komputer sendiri (localhost) tidak perlu kunci lisensi.
+- Mencoba di komputer sendiri (localhost) tidak perlu kunci lisensi, dan bisa memakai akun demo
+  admin@sekolah.test / eduji-demo (akun demo hanya berlaku di localhost).
+- Lupa mengganti ADMIN_PASSWORD sebelum instalasi sehingga tidak bisa masuk? Isi ADMIN_EMAIL (email lain)
+  dan ADMIN_PASSWORD baru di .env, lalu jalankan:
+     php artisan optimize:clear
+     php artisan db:seed --force
+     php artisan optimize
+  Setelah itu masuk dengan akun baru tersebut.

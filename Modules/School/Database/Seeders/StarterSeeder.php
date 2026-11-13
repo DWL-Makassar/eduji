@@ -33,7 +33,32 @@ class StarterSeeder extends SchoolDemoSeeder
         $this->slider();
         $this->starterContent();
         $this->starterHome();
+        $this->starterSettings($settings);
         $settings->set('website', 'home_built', true);
+    }
+
+    /** Identitas & kontak contoh agar footer dan halaman kontak langsung terisi; yang sudah diisi admin tidak ditimpa. */
+    protected function starterSettings(SettingsStore $settings): void
+    {
+        $defaults = [
+            'general' => [
+                'tagline' => 'Cerdas, Berkarakter, Berprestasi',
+                'email' => 'info@nama-sekolah.sch.id',
+                'phone' => '(021) 000 0000',
+                'address' => 'Jl. Contoh No. 1, Kota Anda (ganti dari menu Pengaturan situs)',
+            ],
+            'seo' => [
+                'description' => 'Website resmi sekolah: profil, berita, agenda, prestasi, dan pendaftaran siswa baru.',
+            ],
+        ];
+
+        foreach ($defaults as $group => $values) {
+            foreach ($values as $key => $value) {
+                if (blank($settings->get($group, $key))) {
+                    $settings->set($group, $key, $value);
+                }
+            }
+        }
     }
 
     protected function pages(): void
