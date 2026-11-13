@@ -32,8 +32,6 @@ Akun demo **hanya bisa dipakai dari komputer sendiri (localhost)**. Di komputer 
 Ikuti **PANDUAN-INSTALASI.txt**. Sebelum menjalankan `php artisan migrate --seed`, ganti `ADMIN_EMAIL` dan `ADMIN_PASSWORD`
 di `.env` dengan email & sandi kuat milik sekolah: sandi demo ditolak di domain online.
 
-Lalu minta kunci lisensi gratis lewat WhatsApp (sebutkan nama sekolah dan domain): <https://wa.me/628875301963>
-
 ## Ketentuan
 
 Boleh dipakai untuk satu website sekolah pada domain yang terdaftar. Tidak boleh dijual ulang, dibagikan ulang,
