@@ -1,0 +1,114 @@
+PANDUAN INSTALASI EduJi EDISI GRATIS
+====================================
+
+Butuh bantuan? WhatsApp: https://wa.me/628875301963
+Tidak ingin repot memasang sendiri? Pilih paket "Terima beres": kami pasang sampai online.
+
+
+A. YANG DIBUTUHKAN
+------------------
+- Hosting dengan PHP 8.2 atau lebih baru.
+  Ekstensi PHP: ctype, dom, exif, fileinfo, filter, iconv, json, libxml, mbstring, openssl,
+  pcre, session, tokenizer, zlib, gd, dan pdo_mysql. (Hampir semua hosting cPanel sudah punya.)
+- Database MySQL 8 (buat satu database kosong beserta user-nya di cPanel > MySQL Databases).
+- Akses Terminal di cPanel atau SSH, untuk menjalankan beberapa perintah sekali saja.
+  Jika hosting Anda tidak punya Terminal/SSH, hubungi kami.
+- Batas unggah PHP (upload_max_filesize dan post_max_size) minimal 6M.
+  Atur di cPanel > Select PHP Version > Options.
+- Domain sekolah yang sudah mengarah ke hosting.
+
+
+B. MENGUNGGAH BERKAS
+--------------------
+1. Unggah file zip ke hosting lewat cPanel > File Manager, lalu Extract.
+   Hasilnya satu folder bernama "eduji".
+2. Letakkan folder "eduji" DI LUAR public_html, misalnya /home/namaakun/eduji.
+   Folder ini berisi kata sandi database, jadi tidak boleh bisa dibuka dari internet.
+3. Arahkan domain ke folder eduji/public. Pilih SALAH SATU cara:
+
+   Cara 1 (disarankan): di cPanel > Domains, ubah "Document Root" domain Anda menjadi eduji/public.
+
+   Cara 2 (bila document root tidak bisa diubah):
+   a. Salin SEMUA isi folder eduji/public ke public_html (termasuk berkas .htaccess yang tersembunyi).
+   b. Buka public_html/index.php, lalu ganti SETIAP tulisan  __DIR__.'/../  menjadi  __DIR__.'/../eduji/
+      (ada tiga: storage/framework/maintenance.php, vendor/autoload.php, dan bootstrap/app.php).
+      Contoh hasilnya:
+        require __DIR__.'/../eduji/vendor/autoload.php';
+        $app = require_once __DIR__.'/../eduji/bootstrap/app.php';
+   c. Setiap kali memperbarui EduJi, ulangi langkah a untuk folder build.
+
+
+C. MENGISI PENGATURAN (.env)
+----------------------------
+1. Di File Manager, salin berkas eduji/.env.example menjadi eduji/.env
+   (aktifkan "Show Hidden Files" bila berkas tidak terlihat).
+2. Edit eduji/.env dan isi:
+     APP_URL=https://www.domain-sekolah.sch.id
+     DB_CONNECTION=mysql
+     DB_HOST=localhost
+     DB_PORT=3306
+     DB_DATABASE=nama_database
+     DB_USERNAME=user_database
+     DB_PASSWORD=kata_sandi_database
+     ADMIN_NAME="Nama Admin"
+     ADMIN_EMAIL=email-admin@domain-sekolah.sch.id
+     ADMIN_PASSWORD=buat-kata-sandi-yang-kuat
+   Agar fitur lupa kata sandi bisa mengirim email, isi juga bagian MAIL_* dengan akun email hosting Anda.
+3. Jangan ubah APP_ENV=production dan APP_DEBUG=false.
+
+
+D. MENJALANKAN PERINTAH (sekali saja)
+-------------------------------------
+Buka cPanel > Terminal, lalu jalankan satu per satu:
+
+   cd ~/eduji
+   php artisan key:generate --force
+   php artisan migrate --seed --force
+   php artisan storage:link
+   php artisan optimize
+
+Jika memakai Cara 2 di bagian B, jalankan juga perintah ini (ganti "namaakun"):
+   ln -s ~/eduji/storage/app/public ~/public_html/storage
+
+Catatan: bila "php" di Terminal bukan versi 8.2, pakai jalur lengkapnya,
+misalnya /usr/local/bin/ea-php82 (tanyakan ke penyedia hosting).
+
+
+E. MASUK DAN MENGAKTIFKAN LISENSI
+---------------------------------
+1. Buka https://domain-sekolah-anda/login
+   Masuk dengan ADMIN_EMAIL dan ADMIN_PASSWORD yang Anda isi di .env.
+2. Panel admin akan menampilkan halaman Lisensi.
+   Website publik sekolah tetap tampil walaupun lisensi belum aktif.
+3. Minta kunci lisensi gratis lewat WhatsApp: https://wa.me/628875301963
+   Sebutkan nama sekolah dan domain website (contoh: smpn1contoh.sch.id).
+4. Tempel kunci yang kami kirim (diawali "SKL1.") di halaman Lisensi, lalu klik Aktifkan.
+5. Segera ganti kata sandi admin dari menu Pengguna, lalu hapus ADMIN_PASSWORD dari .env.
+
+Kunci lisensi berlaku untuk satu domain (dengan atau tanpa www).
+Pindah domain? Minta kunci baru lewat WhatsApp.
+
+
+F. MULAI MENGISI WEBSITE
+------------------------
+Setelah dipasang, situs sudah berisi menu, halaman profil, slider, dan beranda contoh.
+Teks contoh itu tinggal Anda ganti dengan data sekolah:
+- Halaman (Profil, Visi & Misi, dll.): ganti teks "Tulis isi halaman ini dari panel admin".
+- Susun halaman: ubah sambutan kepala sekolah, angka statistik, dan urutan blok beranda.
+- Pengaturan situs: nama sekolah, logo, kontak.
+- Tampilan situs: warna, huruf, dan susunan beranda.
+- Isi data: berita, guru & staf, prestasi, ekstrakurikuler, alumni, SPMB.
+
+
+G. MASALAH YANG SERING MUNCUL
+-----------------------------
+- Halaman putih / "500 Server Error":
+  periksa isi .env (terutama data database), lalu jalankan:
+     php artisan optimize:clear
+     php artisan optimize
+- Setiap kali mengubah .env, jalankan dua perintah di atas agar perubahan terbaca.
+- Gambar yang diunggah tidak tampil: jalankan lagi "php artisan storage:link"
+  (atau perintah ln -s di bagian D untuk Cara 2).
+- Unggah gambar gagal: naikkan upload_max_filesize dan post_max_size menjadi minimal 6M.
+- Folder storage dan bootstrap/cache harus bisa ditulis (izin 755 atau 775).
+- Mencoba di komputer sendiri (localhost) tidak perlu kunci lisensi.

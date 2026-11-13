@@ -1,0 +1,22 @@
+EduJi - Website Sekolah (Edisi Gratis)
+======================================
+
+Terima kasih sudah memakai EduJi.
+
+Edisi gratis berisi:
+- Website sekolah lengkap: beranda, berita, pengumuman, agenda, galeri, unduhan, kontak,
+  data guru & staf, prestasi, ekstrakurikuler, jurusan, alumni, dan pendaftaran siswa baru (SPMB).
+- Desain beranda Formal (Desain 1).
+- Aktif untuk 1 domain sekolah dengan kunci lisensi gratis.
+
+Langkah singkat:
+1. Baca PANDUAN-INSTALASI.txt (diunduh bersama file zip ini).
+2. Pasang di hosting sekolah.
+3. Minta kunci lisensi gratis lewat WhatsApp: https://wa.me/628875301963
+   (sebutkan nama sekolah dan domain website).
+4. Masuk ke panel admin, buka menu Lisensi, tempel kuncinya.
+
+Ingin 11 desain beranda atau dipasangkan sampai online? Lihat paket berbayar di https://eduji.pages.dev
+
+Ketentuan edisi gratis: boleh dipakai untuk satu website sekolah pada domain yang terdaftar.
+Tidak boleh dijual ulang, dibagikan ulang, atau diubah untuk melewati kunci lisensi.

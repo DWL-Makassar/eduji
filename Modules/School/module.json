@@ -1,0 +1,6 @@
+{
+    "name": "School",
+    "version": "1.0.0",
+    "description": "Data sekolah: guru & staf, prestasi, ekstrakurikuler, jurusan, dan unit yayasan, lengkap dengan halaman publik dan section page builder.",
+    "requires": ["core", "cms", "website"]
+}

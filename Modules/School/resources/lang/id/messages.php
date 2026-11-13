@@ -1,0 +1,118 @@
+<?php
+
+// Diakses sebagai __('school::messages.<kunci>').
+return [
+    'group' => 'Data sekolah',
+
+    'resources' => [
+        'school-staff' => ['title' => 'Guru & staf', 'singular' => 'Guru/staf'],
+        'school-achievements' => ['title' => 'Prestasi', 'singular' => 'Prestasi'],
+        'school-extracurriculars' => ['title' => 'Ekstrakurikuler', 'singular' => 'Ekstrakurikuler'],
+        'school-majors' => ['title' => 'Jurusan', 'singular' => 'Jurusan'],
+        'school-units' => ['title' => 'Unit pendidikan', 'singular' => 'Unit'],
+        'school-alumni' => ['title' => 'Alumni', 'singular' => 'Alumni'],
+    ],
+
+    'sections' => [
+        'staff' => 'Guru & staf',
+        'achievements' => 'Prestasi terbaru',
+        'extracurriculars' => 'Ekstrakurikuler',
+        'majors' => 'Jurusan',
+        'units' => 'Unit pendidikan',
+        'alumni' => 'Alumni',
+        'spmb' => 'Ajakan daftar SPMB',
+    ],
+
+    'fields' => [
+        'name' => 'Nama',
+        'type' => 'Jenis',
+        'position' => 'Jabatan',
+        'subject' => 'Mata pelajaran',
+        'nip' => 'NIP',
+        'bio' => 'Profil singkat',
+        'level' => 'Tingkat',
+        'winner' => 'Peraih (siswa/tim)',
+        'year' => 'Tahun',
+        'description' => 'Keterangan',
+        'coach' => 'Pembina',
+        'schedule' => 'Jadwal',
+        'code' => 'Kode',
+        'unit_level' => 'Jenjang',
+        'npsn' => 'NPSN',
+        'principal' => 'Kepala sekolah',
+        'phone' => 'Telepon',
+        'address' => 'Alamat',
+        'url' => 'Situs web',
+        'image' => 'Foto/logo',
+        'order' => 'Urutan',
+        'graduation_year' => 'Tahun lulus',
+        'activity' => 'Kegiatan sekarang',
+        'institution' => 'Instansi/kampus',
+        'testimony' => 'Kesan & pesan',
+        'email' => 'Email',
+        'private_help' => 'Hanya terlihat oleh admin.',
+    ],
+
+    'types' => ['teacher' => 'Guru', 'staff' => 'Tenaga kependidikan'],
+
+    'levels' => [
+        'school' => 'Sekolah',
+        'district' => 'Kecamatan',
+        'city' => 'Kabupaten/Kota',
+        'province' => 'Provinsi',
+        'national' => 'Nasional',
+        'international' => 'Internasional',
+    ],
+
+    'unit_levels' => ['tk' => 'TK/PAUD', 'sd' => 'SD/MI', 'smp' => 'SMP/MTs', 'sma' => 'SMA/MA', 'smk' => 'SMK', 'other' => 'Lainnya'],
+
+    'spmb' => [
+        'title' => 'Pendaftaran siswa baru',
+        'status_title' => 'Cek status pendaftaran',
+        'card_title' => 'Kartu pendaftaran',
+        'registrants' => 'Pendaftar SPMB',
+        'singular' => 'Pendaftar',
+        'settings' => 'Pengaturan SPMB',
+        'closed' => 'Pendaftaran sedang ditutup.',
+        'not_found' => 'Data tidak ditemukan. Periksa kembali nomor pendaftaran dan kode akses.',
+        'locked' => 'Terlalu banyak percobaan untuk nomor ini. Coba lagi 15 menit lagi.',
+        'status_saved' => 'Status pendaftar berhasil disimpan.',
+        'settings_saved' => 'Pengaturan SPMB berhasil disimpan.',
+        'fields' => [
+            'access_code' => 'Kode akses',
+            'number' => 'No. pendaftaran',
+            'academic_year' => 'Tahun ajaran',
+            'full_name' => 'Nama lengkap',
+            'nisn' => 'NISN',
+            'gender' => 'Jenis kelamin',
+            'birth_place' => 'Tempat lahir',
+            'birth_date' => 'Tanggal lahir',
+            'previous_school' => 'Sekolah asal',
+            'address' => 'Alamat',
+            'parent_name' => 'Nama orang tua/wali',
+            'parent_phone' => 'No. HP orang tua/wali',
+            'email' => 'Email',
+            'major_id' => 'Pilihan jurusan',
+            'status' => 'Status',
+            'created_at' => 'Tanggal daftar',
+        ],
+        'genders' => ['L' => 'Laki-laki', 'P' => 'Perempuan'],
+        'documents' => [
+            'photo' => 'Pas foto',
+            'family_card' => 'Kartu keluarga',
+            'birth_certificate' => 'Akta kelahiran',
+            'certificate' => 'Ijazah/SKL',
+        ],
+        'statuses' => [
+            'submitted' => 'Terkirim',
+            'verified' => 'Terverifikasi',
+            'accepted' => 'Diterima',
+            'rejected' => 'Tidak diterima',
+        ],
+    ],
+
+    'alumni' => [
+        'form_title' => 'Pendataan alumni',
+        'thanks' => 'Terima kasih! Data Anda akan tampil setelah diperiksa admin.',
+    ],
+];

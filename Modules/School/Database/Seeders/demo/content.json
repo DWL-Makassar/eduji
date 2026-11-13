@@ -1,0 +1,374 @@
+{
+    "settings": {
+        "tagline": "Cerdas, Berkarakter, Berprestasi",
+        "seo_description": "Website resmi SMP Negeri Nusantara. Informasi PPDB, berita, agenda, profil sekolah, data guru, dan kegiatan siswa terbaru.",
+        "principal_motto": "Pendidikan Adalah Investasi Terbaik untuk Masa Depan",
+        "principal_message": "Selamat datang di SMP Negeri Nusantara. Kami berkomitmen memberikan pendidikan terbaik untuk membentuk generasi yang cerdas, berkarakter, dan siap menyongsong masa depan.",
+        "vision": "Berbudi Pekerti Luhur, Unggul dalam Prestasi, Berlandaskan Imtaq dan Iptek yang Berwawasan Lingkungan",
+        "mission": "1. Menumbuhkan penghayatan terhadap ajaran agama.\n2. Menciptakan suasana sekolah yang bersih, rapi berbasis karakter budaya lokal.\n3. Menumbuhkan semangat kedisiplinan bagi warga sekolah.\n4. Membudayakan perilaku positif yang berorientasi pada pencegahan pencemaran dan kerusakan lingkungan.\n5. Menerapkan manajemen partisipatif dengan melibatkan seluruh warga sekolah.\n6. Membentuk SDM yang handal dan kreatif dengan pemberdayaan fungsi lingkungan sekolah."
+    },
+    "slides": [
+        {
+            "title": "Membentuk Pemimpin Masa Depan",
+            "subtitle": "Mewujudkan generasi cerdas, berkarakter, dan berprestasi melalui pendidikan yang berkualitas.",
+            "badge": "Penerimaan Siswa Baru Tahun Ajaran 2026/2027",
+            "cta_label": "Daftar Sekarang",
+            "cta_url": "/spmb",
+            "image": "banner-siswa-digital.jpg"
+        },
+        {
+            "title": "Penerimaan Peserta Didik Baru (PPDB)",
+            "subtitle": "Bergabunglah bersama kami untuk tahun ajaran baru. Pendaftaran kini telah dibuka dengan kuota terbatas.",
+            "badge": "Kuota Terbatas! Daftar Segera",
+            "cta_label": "Daftar Sekarang",
+            "cta_url": "/spmb",
+            "image": "banner-gedung-sekolah.jpg"
+        },
+        {
+            "title": "Sekolah Berwawasan Karakter",
+            "subtitle": "Membangun karakter yang cerdas dipadukan dengan wawasan kebangsaan dan kompetensi abad ke-21.",
+            "badge": "Wujudkan Prestasi Terbaikmu",
+            "cta_label": "Lihat Prestasi",
+            "cta_url": "/prestasi",
+            "image": "banner-perpustakaan.jpg"
+        }
+    ],
+    "features": [
+        {
+            "title": "Ruang Guru",
+            "description": "Platform bimbingan belajar online untuk membantu siswa memahami materi pelajaran.",
+            "icon": "users",
+            "url": "https://bimbel.ruangguru.com/"
+        },
+        {
+            "title": "Kemdikbud",
+            "description": "Portal resmi Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia.",
+            "icon": "layers",
+            "url": "https://www.kemdikbud.go.id/"
+        },
+        {
+            "title": "Buku Guru dan Siswa",
+            "description": "Akses buku teks pelajaran digital untuk guru dan siswa jenjang SMP.",
+            "icon": "file",
+            "url": "http://buku.kemdikbud.go.id/index.php/buku/filters/?kd=WVRvek9udHBPakE3Y3pvMU9pSTJPQ3cwTmlJN2FUb3hPM002TURvaUlqdHBPakk3Y3pveU5Eb2lMMEoxYTNVZ1ZHVnJjeUJRWld4aGFtRnlZVzR2VTAxUUlqdDk="
+        },
+        {
+            "title": "Bank Soal",
+            "description": "Kumpulan latihan soal untuk membantu siswa mempersiapkan diri menghadapi ujian.",
+            "icon": "star",
+            "url": "https://banksoal.belajar.kemdikbud.go.id/"
+        },
+        {
+            "title": "Perpustakaan Nasional",
+            "description": "Akses koleksi buku digital dari Perpustakaan Nasional Republik Indonesia.",
+            "icon": "file",
+            "url": "https://www.perpusnas.go.id/"
+        },
+        {
+            "title": "RPP Guru Berbagi",
+            "description": "Berbagi dan mengunduh Rencana Pelaksanaan Pembelajaran (RPP) dari sesama guru.",
+            "icon": "settings",
+            "url": "https://guruberbagi.kemdikbud.go.id/rpp/"
+        }
+    ],
+    "extracurriculars": [
+        {
+            "name": "Sepak Bola",
+            "description": "Ekstrakurikuler Sepak Bola"
+        },
+        {
+            "name": "Basket",
+            "description": "Ekstrakurikuler Basket"
+        },
+        {
+            "name": "Badminton",
+            "description": "Ekstrakurikuler Badminton"
+        },
+        {
+            "name": "Seni Rupa",
+            "description": "Ekstrakurikuler Seni Rupa"
+        },
+        {
+            "name": "Paduan Suara",
+            "description": "Ekstrakurikuler Paduan Suara"
+        },
+        {
+            "name": "Teater",
+            "description": "Ekstrakurikuler Teater"
+        },
+        {
+            "name": "Fotografi",
+            "description": "Ekstrakurikuler Fotografi"
+        },
+        {
+            "name": "Robotik",
+            "description": "Ekstrakurikuler Robotik"
+        },
+        {
+            "name": "Catur",
+            "description": "Ekstrakurikuler Catur"
+        },
+        {
+            "name": "Renang",
+            "description": "Ekstrakurikuler Renang"
+        },
+        {
+            "name": "Literasi",
+            "description": "Ekstrakurikuler Literasi"
+        },
+        {
+            "name": "Sains Club",
+            "description": "Ekstrakurikuler Sains Club"
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Juara 1 Olimpiade Sains Nasional (Matematika)",
+            "level": "national",
+            "year": 2026,
+            "winner": "Rizky Aditya (IX-A)",
+            "description": "Muhammad Raffi berhasil meraih medali emas pada ajang KSN Tingkat Nasional tahun 2026."
+        },
+        {
+            "title": "Guru Inspiratif Tingkat Provinsi",
+            "level": "province",
+            "year": 2026,
+            "winner": "Andi Pratama, S.Kom",
+            "description": "Penghargaan atas inovasi pembelajaran robotik yang interaktif dan aplikatif."
+        },
+        {
+            "title": "Sekolah Adiwiyata Mandiri",
+            "level": "national",
+            "year": 2025,
+            "winner": "SMP Negeri Nusantara",
+            "description": "Penghargaan tertinggi di bidang lingkungan hidup dari Kementerian LHK RI atas komitmen sekolah terhadap pelestarian lingkungan berkelanjutan."
+        },
+        {
+            "title": "Juara 1 Lomba Tari Kreasi Nusantara",
+            "level": "province",
+            "year": 2025,
+            "winner": "Tim Tari Tradisional",
+            "description": "Kemenangan gemilang oleh tim ekstrakurikuler tari tradisional dalam ajang festival budaya daerah."
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Hj. Hasnawati",
+            "role": "Wali Murid",
+            "year": "2023",
+            "body": "Anak saya berkembang pesat sejak bersekolah di sini. Guru-gurunya sangat profesional dan penuh perhatian. Fasilitas sekolahnya juga sangat lengkap dan modern."
+        },
+        {
+            "name": "Fadli Rahman, S.T.",
+            "role": "Alumni",
+            "year": "2020",
+            "body": "Ilmu dan pengalaman yang saya dapatkan di sekolah ini sangat bermanfaat. Program bilingual-nya membantu saya lolos beasiswa di universitas luar negeri."
+        },
+        {
+            "name": "Ibu Andi Nurul",
+            "role": "Wali Murid",
+            "year": "2022",
+            "body": "Saya sangat puas dengan kualitas pendidikan di sini. Anak saya tidak hanya pandai akademik, tapi juga memiliki akhlak yang baik dan percaya diri."
+        },
+        {
+            "name": "Rangga Saputra",
+            "role": "Siswa",
+            "year": "2025",
+            "body": "Lingkungan belajar di sekolah ini sangat menyenangkan. Fasilitas lab komputernya sangat membantu saya dalam mengasah kemampuan pemrograman sejak dini."
+        },
+        {
+            "name": "PT Mitra Digital Celebes",
+            "role": "Mitra",
+            "year": "2024",
+            "body": "Kami sangat bangga menjadi mitra industri sekolah ini. Lulusan yang dihasilkan sangat kompeten dan siap menghadapi tantangan di dunia kerja profesional."
+        }
+    ],
+    "events": [
+        {
+            "title": "Rapat Kerja Guru dan Staf Tahun Ajaran Baru",
+            "location": "Ruang Rapat Utama Gedung A",
+            "description": "Pertemuan rutin awal semester untuk membahas kurikulum, target akademik, dan pembagian tugas mengajar."
+        },
+        {
+            "title": "Pelatihan Jurnalistik untuk Siswa Ekstrakurikuler Mading",
+            "location": "Perpustakaan Sekolah",
+            "description": "Pelatihan dasar jurnalistik meliputi cara menulis berita, reportase, dan tata letak majalah dinding."
+        },
+        {
+            "title": "Pekan Olahraga Antar Kelas (Class Meeting)",
+            "location": "Lapangan Olahraga Sekolah",
+            "description": "Kegiatan lomba olahraga antar kelas untuk mengisi waktu pasca Ujian Akhir Semester."
+        },
+        {
+            "title": "Sosialisasi Program Pertukaran Pelajar Internasional",
+            "location": "Aula Serbaguna",
+            "description": "Pemaparan informasi pendaftaran program pertukaran pelajar ke Jepang dan Australia untuk siswa kelas XI."
+        },
+        {
+            "title": "Upacara Peringatan Hari Pendidikan Nasional",
+            "location": "Lapangan Utama Sekolah",
+            "description": "Seluruh guru, staf, dan siswa diwajibkan mengikuti upacara bendera memperingati Hardiknas menggunakan seragam batik."
+        }
+    ],
+    "announcements": [
+        {
+            "title": "Pendaftaran Peserta Didik Baru (PPDB) 2026/2027 Dibuka",
+            "body": "<p>Diberitahukan kepada seluruh calon peserta didik dan orang tua/wali murid bahwa pendaftaran gelombang pertama PPDB Tahun Ajaran 2026/2027 telah resmi dibuka mulai tanggal 1 hingga 30 Juli 2026.</p><p>Pendaftaran dapat dilakukan secara online melalui website ini atau datang langsung ke sekretariat PPDB di kampus utama SMP Negeri Nusantara setiap hari kerja pukul 08.00 - 15.00 WIB.</p>"
+        },
+        {
+            "title": "Libur Nasional Memperingati Hari Raya Idul Adha 1447 H",
+            "body": "<p>Sehubungan dengan datangnya Hari Raya Idul Adha 1447 H, kegiatan belajar mengajar akan diliburkan mulai tanggal 15 hingga 18 Agustus 2026. Siswa diharapkan masuk kembali seperti biasa pada hari Senin, 19 Agustus 2026.</p>"
+        },
+        {
+            "title": "Pengambilan Rapor Semester Ganjil",
+            "body": "<p>Pengambilan rapor semester ganjil akan dilaksanakan pada hari Sabtu, 20 Desember 2026. Orang tua/wali murid diwajibkan hadir untuk berkonsultasi langsung dengan wali kelas mengenai perkembangan akademik dan karakter siswa.</p>"
+        }
+    ],
+    "posts": [
+        {
+            "title": "Sekdis Pendidikan Kota Makassar Pantau Langsung Pelaksanaan ANBK Di SMP Negeri Nusantara",
+            "slug": "sekdis-pendidikan-kota-makassar-pantau-langsung-pelaksanaan-anbk-di-upt-spf-smpn-24-makassar",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Pelaksanaan Asesmen Nasional Berbasis Kompetsni (ANBK) di SMP Negeri Nusantara dihadari langsung oleh sekertaris Dinas Pendidikan Kota Makassar; Dr. H. Basri Hamzah yang kehadrira…",
+            "body": "<p>Pelaksanaan Asesmen Nasional Berbasis Kompetsni (ANBK) di SMP Negeri Nusantara dihadari langsung oleh sekertaris Dinas Pendidikan Kota Makassar; Dr. H. Basri Hamzah yang kehadrirannya memastikan proses pelaksanaan ANBK berjalan lancar bsik dari peserta didik yang mengikuti ANBK maupun sarana yang digunakan serta kelancaran jaringan yang mendukung akses pelaksanaannya.</p>\n<p>Selain, sekertaris Dinas Pendidikan kota makassar, pelaksanaan ANBK juga turut dihadiri oleh perwakilan dari lembaga penjamin mutu pendidikan sulawesi selatan. </p>"
+        },
+        {
+            "title": "SMP Negeri Nusantara Adakan In House Training",
+            "slug": "upt-spf-smpn-24-makassar-adakan-in-house-training",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Pelaksanaan kegiatan In House Training bertempat di ruang guru dan dilaksanakan selama dua hari, yaitu pada tanggal 18 dan 19 juli 2024. Pelaksanaan kegiatan tersebut dalam rangka…",
+            "body": "<p>Pelaksanaan kegiatan In House Training bertempat di ruang guru dan dilaksanakan selama dua hari, yaitu pada tanggal 18 dan 19 juli 2024. Pelaksanaan kegiatan tersebut dalam rangka pekembangan kompetensi guru dan dipematerinya merupakan pengawas bina; Drs. Ridwan Saleh, M.M. Adapun muatan materinya yaitu : Administrasi pembelajaran tahun ajaran 2024-2025, E kinerja PMM periode juli-desember 2024 dan Perubahan Capaian Pembelajaran (CP). </p>"
+        },
+        {
+            "title": "Rapat Kerja (RAKER) SMP Negeri Nusantara Tahun Pelajaran 2024-2025",
+            "slug": "rapat-kerja-raker-upt-spf-smpn-24-makassar-tahun-pelajaran-2024-2025",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Rapat Kerja SMP Negeri Nusantara dilaksanakan di Aula kebun wisata gowa pada tanggal 20 juli 2024. Adapun susunan kegiatannya yaitu dimulai dengan sambutan Kepala SMP Negeri Nusan…",
+            "body": "<p>Rapat Kerja SMP Negeri Nusantara dilaksanakan di Aula kebun wisata gowa pada tanggal 20 juli 2024. Adapun susunan kegiatannya yaitu dimulai dengan sambutan Kepala SMP Negeri Nusantara; Drs. H. Ahmad Yani, M.Pd sekaligus membuka kegiatan secara resmi dan membacakan beberapa tugas tambahan guru-guru pada tahun ajaran 2024-2025. </p>\n<p>Peserta yang hadir pada kegiatan tersebut adalah seluruh stakeholder yang ada di sekolah seperti guru-guru, tata usaha, serta laskar pelangi. Setelah acara pembukaan oleh kepala sekolah, kegiatan dilanjutkan dengan pemaparan program kerja masing-masing wakil kepala sekolah: wakasek kurikulum, wakasek kesiswaan serta wakasek sarana dan pra-sarana. Adapun masing-masing wakasek memiliki rancangan program kerja unggulan yang nantinya akan diimplementasikan pada tenggat waktu yang telah ditetapkan masing-masing.</p>\n<p>Selain agenda pemaparan program kerja masing-masing wakasek, terdapat pula agenda pembahasan tata tertib sekolah serta pembahasan visi-misi sekolah. hal tersebut dipandang perlu untuk dibahas, agar guru-guru dapat menyamakan interpretasi mengenai aturan-aturan yang berlaku di sekolah bagi peserta didik. Kepala Sekolah SMP Negeri Nusantara; Drs. H. Ahmad Yani, M.Pd juga menaruh harapan agar program yang telah dibahas dan ditetapka secara bersama-sama di forum RAKER dapat dikerjakan dengan semangat gotong royong (kerjasama) antar semua elemen yang ada di sekolah dan taklupa juga untuk selalu mengkonrdinasikan hal-hal yang akan dilakukan. </p>"
+        },
+        {
+            "title": "Panen Karya P5 di SMP Negeri Nusantara Dihadiri Sekertaris Dinas Pendidikan Kota Makassar",
+            "slug": "panen-karya-p5-di-upt-spf-smpn-24-makassar-dihadiri-sekertaris-dinas-pendidikan-kota-makassar",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Dr. H. Basri Hamzah selaku sekertaris Dinas Pendidikan Kota Makassar turut serta dalam acara panen karya hasil kegiatan P5 (Projek Penguatan Profil Pelajar Pancasila) sekaligus me…",
+            "body": "<p>Dr. H. Basri Hamzah selaku sekertaris Dinas Pendidikan Kota Makassar turut serta dalam acara panen karya hasil kegiatan P5 (Projek Penguatan Profil Pelajar Pancasila) sekaligus membuka kegiatan panen karya dengan tema Kewirausahaan ‘Wirausaha yang Bertanggung Jawab’. Dalam sambutannya Dr. H. Basri Hamzah menekankan agar peserta didik dapat bertanggung jawab dengan apa yang mereka lakukan saat ini dan untuk kedepannya serta menambahkan akan pentingnya penguatan literasi dan numerasi pada peserta didik untuk mereka dapat berpikir kreatif dan inovatif agar kedepannya peserta didik dapat menciptakan peluang kerja sendiri yang kompetitif di masa depan. Adapun hasil karya siswa yang dipamerkan pada kegiatan tersebut terbagi kedalam dua kategori yaitu kuliner khas sulawesi selatan berupa kapurung dan kue-kue tradisional bugis-makassar sedangkan untuk kategori kerajinan tangan berupa aksesoris dari manik-manik, bucket snack, dan bantal memory foam.</p>\n<p>Kepala SMP Negeri Nusantara Drs. H. Ahmad Yani, M.Pd juga memberikan sambutan yang menekankan agar peserta didik bersemangat dalam berkarya dan dapat mengambil pelajaran dari proses kerja pembuatan produk yang mereka pamerkan serta menyampaikan pesan untuk peserta didik dapat menjauhi narkoba karena dalam kegiatan tersebut juga aatua turut serta dihadiri oleh perwakilan dari BNN serta Kesbangpol kota Makassar sekaligus memberikan pengarahan kepada peserta didik untuk menjauhi narkoba.</p>\n<p> Selain acara panen karya juga terdapat beberapa pementasan kesenian dari peserta didik SMP Negeri Nusantara serta penandatanganan Deklarasi Anti/ Bombe Narkoba dari Perwakilan Sekertaris Dinas Pendidikan Kota Makassar, Perwakilan BNN, Perwakilan Kesbangpol Kota Makassar, Kepala SMP Negeri Nusantara, Perwakilan Guru-guru serta perwakilan Peserta didik SMP Negeri Nusantara.</p>\n<p>Setelah penandatanganan deklarasi bombe narkoba para tamu undangan menyempatkan untuk hadir dalam menjajaki pameran hasil karya P5 peserta didik sambil menanyakan kepada peserta didik bahan dasar dari pembuatan produk yang mereka pamerkan.</p>"
+        },
+        {
+            "title": "Pramuka SMP Negeri Nusantara Melaksanakan Rapat Kerja (RAKER) dan Musyawarah Dewan Penggalang",
+            "slug": "pramuka-upt-spf-smp-negeri-24-makassar-melaksanakan-rapat-kerja-raker-dan-musyawarah-dewan-penggalang",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Nusantara Scout merupakan nama pangkalan Gerakan Pramuka SMP Negeri Nusantara yang menyelenggarakan Rapat Kerja sekaligus Musyawarah Dewan Penggalang. Pembukaan Rapat Kerja turut …",
+            "body": "<p>Nusantara Scout merupakan nama pangkalan Gerakan Pramuka SMP Negeri Nusantara yang menyelenggarakan Rapat Kerja sekaligus Musyawarah Dewan Penggalang. Pembukaan Rapat Kerja turut dihadiri Ketua Majelis Pembimbing Gugus Depan (KAMABIGUS) atau Kepala SMP Negeri Nusantara. Dalam sambutan pembukaannya Drs. H. Ahmad Yani, M.Pd selaku Kamabigus menyampaikan kepada peserta RAKER untuk membuat program kerja yang dapat memberikan manfaat kepada sekolah dengan membawa nama baik sekolah melalui torehan prestasi.</p>\n<p>Dilanjutkan dengan sambutan Pembina Pramuka Putri; Nurhaedah, S.Pd. yang memberikan arahan kepada anggota pramuka Nusantara Scout untuk bersungguh-sungguh dalam menyusun dan membuat program kerja dan menghararapkan kepada anggota pramuka yang sudah menyelesaikan studinya di SMP Negeri Nusantara dengan tetap mendampingi adik-adiknya dalam berkegiatan kepramukaan baik dalam lingkungan sekolah maupun dalam mengikuti lomba atau kegiatan di luar sekolah.</p>\n<p>Kegiatan tersebut berlangsung selama dua hari yaitu pada hari jumat sampai sabtu pada tanggal 24-25 Mei 2024. Setelah pembukaan Raker, kegiatan dilanjutkan dengan musyawarah dewan penggalan di gedung kelas yang kegiatannya turut dihadiri oleh beberapa alumni pramuka SMP Negeri Nusantara serta mahasiswa PPL PPG UNM. </p>"
+        },
+        {
+            "title": "OSIS SMP Negeri Nusantara Melaksanakan Rapat Kerja (RAKER)",
+            "slug": "osis-upt-spf-smpn-24-makassar-melaksanakan-rapat-kerja-raker",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Rapat Kerja yang dilaksanakan oleh Osis SMP Negeri Nusantara periode kepengurusan 2024-2025 pada hari sabtu tanggal 18 Mei 2024 bertempat di Aula sekolah. kegiatan tersebut dibuka…",
+            "body": "<p>Rapat Kerja yang dilaksanakan oleh Osis SMP Negeri Nusantara periode kepengurusan 2024-2025 pada hari sabtu tanggal 18 Mei 2024 bertempat di Aula sekolah. kegiatan tersebut dibuka langsung oleh Drs. H. Ahmad Yani, M.Pd selaku Kepala Sekolah. Dalam sambutan pembukaan Kepala SMP Negeri Nusantara menekankan kepada pengurus osis dalam merancang dan merumuskan program kerja tidak perlu terlalu banyak yang jelas sesuai dengan proporsi kegiatan yang dapat dilaksanakan.</p>\n<p>Drs. Hamzah Latif selaku pembina Osis menekankan kepada pengurusnya untuk bersungguh-sungguh dalam belajar berorganisasi melalui wadah kegiatan Osis. Karena dengan organisasi tersebut kelak akan menjadi bekal kepada mereka untuk menunjukkan eksistensinya kepada pendidikan tingkat lanjutan. </p>"
+        },
+        {
+            "title": "SMP Negeri Nusantara Menggelar Festival Literasi, Sosialisasi Pencegahan 3 Dosa Pendidikan dan Narkoba serta Pengukuhan Duta Baca dan Tim Satgas Anti Narkoba",
+            "slug": "upt-spf-smpn-24-makassar-menggelar-festival-literasi-sosialisasi-pencegahan-3-dosa-pendidikan-dan-narkoba-serta-pengukuhan-duta-baca-dan-tim-satgas-anti-narkoba",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Pelaksanaan kegiatan Festival Literasi, Sosialisasi Pencegahan 3 Dosa Pendidikan di SMP Negeri Nusantara pada hari jumat tanggal 17 Mei 2024 yang bertempat di Aula sekolah berlang…",
+            "body": "<p>Pelaksanaan kegiatan Festival Literasi, Sosialisasi Pencegahan 3 Dosa Pendidikan di SMP Negeri Nusantara pada hari jumat tanggal 17 Mei 2024 yang bertempat di Aula sekolah berlangsung dengan meriah. Kegiatan tersebut turut diramaikan dengan terlibatnya Mahasiswa dari Universitas Negeri Makassar Jurusan Matematika dengan Program Kampus Mengajar MBKM (Merdeka Belajar Kampus Merdeka), Mahasiswa PPL (Praktik Pendidikan Lapangan) PPG (Pendidikan Profesi Guru) Prajabatan Universitas Negeri Makassar Jurusan PJOK (Pendidikan Jasmani Olahraga dan Kesehatan). Muatan kegiatan dari Mahasiswa MBKM yaitu Sosialisasi Pencegahan 3 Dosa Pendidikan seperti Perendungan, kekerasan seksual dan intoleransi. </p>\n<p>Adapun dari Mahasiswa PPL PPG Prajabatan mengusung kegiatan literasi serta melakukan pengukuhan duta baca di SMP Negeri Nusantara yang pemilihan anggotanya dari siswa. Harapannya para siswa tersebut dapat menularkan semangat belajar kepada teman-temannya untuk mencintai membaca terkhusus pada literasi dasar yaitu baca tulis.</p>\n<p>Kegiatan lainnya yaitu Sosialisasi Anti Narkoba atau <em>“Bombe”</em> Narkoba yang materinya langsung dibawakan dari pemateri BNN (Badan Narkotika Nasional) Provinsi Sulawesi Selatan. Harapan dari kegiatan tersebut agar sejak dini dapat ditanamkan kepada diri peserta didik untuk menjauhi narkoba. Selain materi sosialisasi juga dibentuk Tim Satgas Anti Narkoba di Sekolah yang anggota Timnya terdiri dari Guru-guru di sekolah serta beberapa siswa.</p>\n<p> Dengan adanya Tim Satgas Anti Narkoba di sekolah yang dikukuhkan oleh Kepala SMP Negeri Nusantara, Drs. H. Ahmad Yani, M.Pd mengharapkan sekolah menjadi gerbang utama dalam pencegahan penyalahgunaan narkoba yang dapat menularkan virus positif kepada warga masyarakat melalui pendekatan peserta didik ke teman-temannya dan kelaurganya ketika berada di luar lingkungan sekolah.</p>"
+        },
+        {
+            "title": "SMP Negeri Nusantara Gelar Pameran Karya P5 Kurikulum Merdeka",
+            "slug": "upt-spf-smpn-24-makassar-gelar-pameran-karya-p5-kurikulum-merdeka",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Pameran Karya Profil Penguatan Pelajar Pancasila (P5) merupakan kegiatan yang sangat penting dalam pelaksanaan Kurikulum Merdeka. Di SMP Negeri Nusantara, tepatnya pada hari Senin…",
+            "body": "<p>Pameran Karya Profil Penguatan Pelajar Pancasila (P5) merupakan kegiatan yang sangat penting dalam pelaksanaan Kurikulum Merdeka. Di SMP Negeri Nusantara, tepatnya pada hari Senin, 27 November 2023 diadakan pameran karya P5 perdana yang berlangsung dengan meriah. </p>\n<p>Acara pameran ini menampilkan berbagai karya yang dibuat siswa dari kelas 7 dengan tema yang diambil Gaya Hidup Berkelanjutan dan Kearifan Lokal. Kegiatan tersebut dibuka secara langsung oleh Drs. H. Ahmad Yani, M.Pd selaku Kepala Sekolah dan dalam kesempatan itu, beliau berkenan untuk mengunjungi setiap stand pameran dan juga membeli produk hasil proyek siswa.</p>\n<p>Tema Gaya Hidup Berkelanjutan menampilkan : Penghijauan dan daur ulang sampah.</p>\n<p>Tema Kearifan Lokal menampilkan : Kuliner Khas Makassar dan Lukisan Kaligrafi</p>\n<p>Kegiatan tersebut dikunjungi juga oleh Pengawas Bina, Bapak Drs. Ridwan Saleh, guru dan pegawai, serta siswa kelas 7, 8, dan 9. Para pengunjung terlihat antusias mengunjungi dan membeli produk yang ditampilkan.</p>"
+        },
+        {
+            "title": "SMP Negeri Nusantara Adakan Outing Class Kunjungan Pembuatan Kapal Pinisi",
+            "slug": "upt-spf-smpn-24-makassar-adakan-outing-class-kunjungan-pembuatan-kapal-pinisi",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Pembelajaran dalam program outing class merupakan salah satu program yang bertujuan memberikan keterampilan dan keahlian dasar tertentu sebagai sarana menumbuhkan kreativitas sisw…",
+            "body": "<p>Pembelajaran dalam program <em>outing class</em> merupakan salah satu program yang bertujuan memberikan keterampilan dan  keahlian dasar tertentu sebagai sarana menumbuhkan kreativitas siswa. <em>Outing class</em> ini menjadi media yang paling efektif dan efisien dalam menyampaikan pembelajaran yang bukan di dasarkan dari teori saja tapi juga pembuktian di lapangan secara langsung.</p>\n<p>Pada Kamis, 10 Agustus 2023 puluhan pelajar SMP Negeri Nusantara mengunjungi langsung lokasi pembuatan kapal legendaris Pinisi di kawasan Center Point of Indonesia (CPI) Makassar, Jalan Metro Tanjung Bunga. Kegiatan <em>outing class</em> ini diikuti siswa kelas 7, 8 dan 9.</p>\n<p>Pembuatan Kapal Pinisi ini dipilih SMP Negeri Nusantara sebagai tempat outing class agar siswa mendapatkan informasi langsung bagaimana proses pembuatan kapal Pinisi yang merupakan perahu tradisional suku Bugis-Makassar Sulawesi Selatan (Sulsel) sebagai warisan budaya dunia yang pembuatan Pinisi masih dilakukan secara tradisional.</p>\n<p>Dari kegiatan outing class ini siswa juga akan mengetahui sejarah kapal Pinisi yang disertai penjelasan asal-usul, jenis hingga desain ditampilkan dalam agenda outing class tersebut. Disamping itu, semua siswa pun dapat berdialog langsung dengan orang-orang yang terlibat dan kegiatan outing class dapat menjadi sarana hiburan yang menyenangkan.</p>"
+        },
+        {
+            "title": "Cerdas Cermat IPS SMP Negeri Nusantara",
+            "slug": "cerdas-cermat-ips-smp-negeri-24-makassar",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Pada hari Senin tanggal 31 Juli 2023 Pendidikan Profesi Guru (PPG) Universitas Negeri Makassar menyelenggarakan lomba cerdas cermat mata pelajaran IPS yang diikuti kelas 7, 8 dan …",
+            "body": "<p>Pada hari Senin tanggal 31 Juli 2023 Pendidikan Profesi Guru (PPG) Universitas Negeri Makassar menyelenggarakan lomba cerdas cermat mata pelajaran IPS yang diikuti kelas 7, 8 dan 9.</p>\n<p>Lomba cerdas cermat ini diadakan selama satu hari mulai dari pukul 08.00 pagi sampai 14.20 siang yang dibuka langsung oleh Kepala SMP Negeri Nusantara, Drs. H. Ahmad Yani, M.Pd </p>\n<p>Lomba cerdas cermat ini diikuti oleh 30 Tim dengan 1 Tim beranggotakan 3 peserta didik dari masing-masing perwakilan kelas. Perlombaan ini dilakukan dengan sistem penyisihan hingga menyisakan 1 TIm setiap tingkatan yang berhasil menjuarai lomba cerdas cermat ini. </p>\n<p>Perlombaan ini dimenangkan kelas 9.4 dari tingkat kelas 9, kelas 8.10 dari tingkat kelas 8 dan kelas 7.6 dari tingkat kelas 7.</p>\n<p>Lomba cerdas cermat ini diakhiri dengan melakukan sesi foto bersama.</p>\n<div class=\"wp-block-image\"></div>"
+        },
+        {
+            "title": "Perayaan Hari Guru Nasional di SMP Negeri Nusantara",
+            "slug": "perayaan-hari-guru-nasional-di-upt-spf-smpn-24-makassar",
+            "category": "Kegiatan Siswa",
+            "excerpt": "Hari Guru Nasional 2022 jatuh pada tanggal 25 November. Peringatan tahunan itu merupakan hari ulang tahun Persatuan guru Republik Indonesia (PGRI). SMP Negeri Nusantara melakukan …",
+            "body": "<p>Hari Guru Nasional 2022 jatuh pada tanggal 25 November. Peringatan tahunan itu merupakan hari ulang tahun Persatuan guru Republik Indonesia (PGRI).</p>\n<p>SMP Negeri Nusantara melakukan perayaan Hari Guru Nasional pada, jumat (25/11/2022), dengan bertukar kado.</p>\n<div class=\"wp-block-image\"></div>\n<p>Menurut, Kepala SMP Negeri Nusantara, Drs. H. Ahmad Yani, M.Pd mengatakan guru-guru disekolah kami juga ada keseruan mereka saling tukar kado. Adapun tujuan perayaan Hari Guru Nasional adalah sebagai momen untuk menyampaikan rasa terima kasih atas perjuangan guru dalam mengajar dan membimbing siswa, dan guru-guru disekolah kami juga ada keseruan mereka saling tukar kado.</p>\n<p>“Semoga dengan perjuangan mereka bangsa ini bisa lebih maju dan sejahtera,” tambahnya.</p>"
+        },
+        {
+            "title": "SMP Negeri Nusantara ini Dorong Kreativitas Siswa Melalui Pergelaran Seni",
+            "slug": "upt-spf-smpn-24-makassar-ini-dorong-kreativitas-siswa-melalui-pergelaran-seni",
+            "category": "Kegiatan Siswa",
+            "excerpt": "SMP Negeri Nusantara yang terletak di Jl. Pendidikan No. 24, Makassar melaksanakan pergelaran karya seni siswa, di halaman sekolah, Jumat (25/11/2022). Dihadiri oleh Kepala SMP Ne…",
+            "body": "<p>SMP Negeri Nusantara yang terletak di Jl. Pendidikan No. 24, Makassar melaksanakan pergelaran karya seni siswa, di halaman sekolah, Jumat (25/11/2022).</p>\n<p>Dihadiri oleh Kepala SMP Negeri Nusantara, Drs. H. Ahmad Yani, M.Pd, mahasiswa Asistensi MBKM Mandiri Fakultas Seni dan Desain UNM, dosen pendamping dari UNM, guru-guru, staf dan siswa siswi.</p>\n<p>Menurut, Kepala SMP Negeri Nusantara, Drs. H. Ahmad Yani, M.Pd mengatakan, selain merupakan amanat kurikulum, kegiatan itu untuk memberi ruang yang cukup bagi para siswa dalam unjuk karya seni.</p>\n<p>“Para murid juga dapat belajar mengasah kreativitas, sekaligus belajar perencanaan, mengorganisasi mulai dari latihan hingga usai pementasan,” ujarnya.</p>\n<p>Pergelaran seni ini menampilkan banyak pertunjukkan yang diwakili oleh setiap perwakilan kelas 8. Mulai dari bernyanyi, menari baik tari tradisional ataupun  tari modern, ada juga yang bermain alat musik yang berkolaborasi dengan mahasiswa UNM.</p>"
+        }
+    ],
+    "pages": [
+        {
+            "title": "Kebijakan Privasi",
+            "slug": "kebijakan-privasi",
+            "body": "<p>Kami menghargai privasi setiap pengunjung website ini. Kebijakan Privasi ini menjelaskan bagaimana Sekolah mengumpulkan, menggunakan, menyimpan, dan melindungi data pribadi yang diberikan melalui website resmi sekolah.</p>\n<h2>1. Data yang Kami Kumpulkan</h2>\n<p>Melalui website ini, kami dapat mengumpulkan beberapa informasi, seperti:</p>\n<ul><li>nama lengkap;</li><li>alamat email;</li><li>nomor telepon/WhatsApp;</li><li>alamat;</li><li>data siswa, orang tua, atau wali;</li><li>data pendaftaran siswa baru;</li><li>pesan yang dikirim melalui formulir kontak;</li><li>informasi teknis seperti alamat IP, jenis perangkat, browser, dan aktivitas kunjungan website.</li></ul>\n<p>Data yang dikumpulkan dapat berbeda tergantung fitur yang digunakan pada website.</p>\n<h2>2. Penggunaan Data</h2>\n<p>Data yang dikumpulkan digunakan untuk:</p>\n<ul><li>memproses pendaftaran siswa baru;</li><li>menanggapi pertanyaan dari pengunjung website;</li><li>menghubungi calon siswa, orang tua, atau wali;</li><li>mendukung kegiatan administrasi sekolah;</li><li>menyampaikan informasi resmi sekolah;</li><li>meningkatkan kualitas layanan dan keamanan website.</li></ul>\n<h2>3. Perlindungan Data Anak</h2>\n<p>Kami memahami bahwa sebagian data yang dikelola melalui website ini dapat berkaitan dengan peserta didik atau anak-anak. Data tersebut hanya digunakan untuk kepentingan pendidikan, administrasi sekolah, dan layanan resmi sekolah.</p>\n<p>Kami tidak menjual, menyewakan, atau menyebarluaskan data pribadi siswa kepada pihak yang tidak berkepentingan.</p>\n<h2>4. Penyimpanan dan Keamanan Data</h2>\n<p>Kami berupaya menjaga keamanan data pribadi dengan membatasi akses hanya kepada pihak yang berwenang. Data disimpan selama masih diperlukan untuk tujuan administrasi, layanan pendidikan, atau sesuai ketentuan yang berlaku.</p>\n<p>Meskipun demikian, pengguna juga diharapkan berhati-hati dalam mengirimkan informasi pribadi melalui internet.</p>\n<h2>5. Berbagi Data dengan Pihak Ketiga</h2>\n<p>Data pribadi tidak akan dijual atau disewakan kepada pihak ketiga.</p>\n<p>Data dapat dibagikan hanya apabila:</p>\n<ul><li>diperlukan untuk layanan resmi sekolah;</li><li>diwajibkan oleh peraturan perundang-undangan;</li><li>diperlukan untuk keamanan sistem;</li><li>telah mendapatkan persetujuan dari pihak terkait.</li></ul>\n<h2>6. Hak Pemilik Data</h2>\n<p>Orang tua, wali, siswa, guru, atau pihak terkait dapat menghubungi sekolah untuk meminta pembaruan, koreksi, atau penghapusan data pribadi yang tidak lagi diperlukan.</p>\n<p>Permintaan tersebut dapat disampaikan melalui kontak resmi sekolah.</p>\n<h2>7. Ketentuan Khusus (Layanan Pro / SPMB)</h2>\n<p>Website ini dapat mengelola data pendaftaran siswa baru, termasuk data calon peserta didik, orang tua/wali, dan dokumen pendukung. Data tersebut hanya digunakan untuk proses seleksi, administrasi penerimaan peserta didik, dan komunikasi resmi dari sekolah.</p>\n<h2>8. Tautan ke Website Lain</h2>\n<p>Website ini dapat memuat tautan ke website lain, seperti media sosial, layanan video, atau platform eksternal lainnya. Kami tidak bertanggung jawab atas kebijakan privasi dan isi dari website pihak ketiga tersebut.</p>\n<h2>9. Perubahan Kebijakan Privasi</h2>\n<p>Kebijakan Privasi ini dapat diperbarui sewaktu-waktu sesuai kebutuhan sekolah dan perkembangan peraturan yang berlaku. Perubahan akan ditampilkan pada halaman ini.</p>"
+        },
+        {
+            "title": "Tentang Kami",
+            "slug": "tentang-kami",
+            "body": "<h2>Sejarah Singkat</h2><p>SMP Negeri Nusantara didirikan pada tahun 1998 dengan visi besar menjadi lembaga pendidikan terdepan di Indonesia. Bermula dari sebuah bangunan sederhana dengan 3 ruang kelas dan 45 siswa, kini SMP Negeri Nusantara telah berkembang menjadi kompleks pendidikan modern dengan lebih dari 1.200 siswa aktif.</p><h2>Visi</h2><p>Menjadi lembaga pendidikan terdepan yang menghasilkan lulusan berkarakter, inovatif, dan berdaya saing global.</p><h2>Misi</h2><ul><li>Menyelenggarakan pendidikan berkualitas berstandar internasional</li><li>Membentuk karakter siswa yang berakhlak mulia dan berjiwa kepemimpinan</li><li>Mengembangkan potensi siswa secara optimal melalui program akademik dan non-akademik</li><li>Membangun kemitraan dengan institusi pendidikan internasional</li><li>Menciptakan lingkungan belajar yang kondusif, inklusif, dan berbasis teknologi</li></ul><h2>Fasilitas</h2><ul><li>Laboratorium Sains Terpadu (Fisika, Kimia, Biologi)</li><li>Laboratorium Komputer & Robotik</li><li>Perpustakaan Digital dengan 15.000+ koleksi</li><li>Lapangan Olahraga Indoor & Outdoor</li><li>Masjid Sekolah</li><li>Kantin Sehat bersertifikat BPOM</li><li>Ruang Multimedia dan Studio Musik</li></ul>"
+        },
+        {
+            "title": "Visi & Misi",
+            "slug": "visi-misi",
+            "body": "<h2>Visi</h2><p>Menjadi lembaga pendidikan unggul yang melahirkan generasi beriman, berilmu, berkarakter, dan berdaya saing global pada tahun 2030.</p><h2>Misi</h2><ol><li>Menyelenggarakan proses pembelajaran yang aktif, kreatif, efektif, dan menyenangkan berdasarkan Kurikulum Merdeka.</li><li>Menumbuhkan penghayatan dan pengamalan ajaran agama sebagai landasan akhlak mulia.</li><li>Mengembangkan budaya literasi, sains, dan teknologi di lingkungan sekolah.</li><li>Membina dan mengembangkan potensi peserta didik melalui kegiatan intrakurikuler, kokurikuler, dan ekstrakurikuler.</li><li>Menjalin kerjasama dengan berbagai pihak dalam rangka peningkatan mutu pendidikan.</li></ol><h2>Motto</h2><p><em>\"Excellence with Character — Unggul dengan Karakter\"</em></p>"
+        },
+        {
+            "title": "Struktur Organisasi",
+            "slug": "struktur-organisasi",
+            "body": "<p>Halaman ini menampilkan struktur organisasi sekolah, mulai dari Kepala Sekolah, Wakil Kepala Sekolah, Koordinator Bidang, hingga Wali Kelas. Silakan lengkapi bagan organisasi sekolah Anda melalui panel admin.</p>"
+        },
+        {
+            "title": "Informasi Kurikulum",
+            "slug": "informasi-kurikulum",
+            "body": "<p>Sekolah menerapkan kurikulum yang berlaku secara nasional dengan penyesuaian muatan lokal. Silakan lengkapi penjelasan kurikulum yang digunakan (contoh: Kurikulum Merdeka) beserta struktur mata pelajaran pada halaman ini melalui panel admin.</p>"
+        },
+        {
+            "title": "Perpustakaan",
+            "slug": "perpustakaan",
+            "body": "<p>Perpustakaan sekolah menyediakan koleksi buku pelajaran, referensi, dan bacaan umum untuk mendukung kegiatan belajar siswa. Lengkapi informasi jam layanan dan koleksi perpustakaan pada halaman ini melalui panel admin.</p>"
+        },
+        {
+            "title": "Tata Tertib",
+            "slug": "tata-tertib",
+            "body": "<p>Tata tertib disusun untuk menciptakan lingkungan belajar yang disiplin, aman, dan nyaman bagi seluruh warga sekolah. Silakan lengkapi poin-poin tata tertib sekolah Anda pada halaman ini melalui panel admin.</p>"
+        },
+        {
+            "title": "Sarana & Prasarana",
+            "slug": "sarana-prasarana",
+            "body": "<h2>Fasilitas Pembelajaran</h2><p>Sekolah dilengkapi dengan ruang kelas representatif, laboratorium, dan fasilitas penunjang pembelajaran lainnya. Lengkapi daftar fasilitas pembelajaran sekolah Anda pada bagian ini melalui panel admin.</p><h2>Sarana & Prasarana Lainnya</h2><p>Sekolah memiliki berbagai sarana dan prasarana penunjang kegiatan sekolah, seperti lapangan olahraga, aula, kantin, dan tempat ibadah. Lengkapi daftar sarana & prasarana sekolah Anda pada bagian ini melalui panel admin.</p>"
+        },
+        {
+            "title": "Kesiswaan",
+            "slug": "kesiswaan",
+            "body": "<p>Informasi seputar kesiswaan dapat dilihat pada tautan berikut:</p><ul><li><a href=\"/ekstrakurikuler\">Organisasi & Ekstrakurikuler</a></li><li><a href=\"/prestasi\">Prestasi Siswa</a></li><li><a href=\"/halaman/perpustakaan\">Perpustakaan</a></li><li><a href=\"/halaman/tata-tertib\">Tata Tertib</a></li></ul>"
+        }
+    ],
+    "downloads": [
+        {
+            "title": "Brosur PPDB 2026/2027",
+            "description": "Informasi lengkap mengenai jalur pendaftaran, biaya, dan program unggulan."
+        },
+        {
+            "title": "Kalender Akademik 2026/2027",
+            "description": "Jadwal lengkap kegiatan belajar mengajar selama satu tahun ajaran."
+        },
+        {
+            "title": "Formulir Pendaftaran Beasiswa Berprestasi",
+            "description": "Formulir contoh berformat RTF yang dapat langsung diganti dengan dokumen resmi sekolah."
+        }
+    ]
+}

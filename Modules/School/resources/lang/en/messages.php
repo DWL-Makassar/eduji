@@ -1,0 +1,118 @@
+<?php
+
+// Accessed as __('school::messages.<key>').
+return [
+    'group' => 'School data',
+
+    'resources' => [
+        'school-staff' => ['title' => 'Teachers & staff', 'singular' => 'Teacher/staff'],
+        'school-achievements' => ['title' => 'Achievements', 'singular' => 'Achievement'],
+        'school-extracurriculars' => ['title' => 'Extracurriculars', 'singular' => 'Extracurricular'],
+        'school-majors' => ['title' => 'Majors', 'singular' => 'Major'],
+        'school-units' => ['title' => 'School units', 'singular' => 'Unit'],
+        'school-alumni' => ['title' => 'Alumni', 'singular' => 'Alumnus'],
+    ],
+
+    'sections' => [
+        'staff' => 'Teachers & staff',
+        'achievements' => 'Latest achievements',
+        'extracurriculars' => 'Extracurriculars',
+        'majors' => 'Majors',
+        'units' => 'School units',
+        'alumni' => 'Alumni',
+        'spmb' => 'Admission call-to-action',
+    ],
+
+    'fields' => [
+        'name' => 'Name',
+        'type' => 'Type',
+        'position' => 'Position',
+        'subject' => 'Subject',
+        'nip' => 'Employee ID',
+        'bio' => 'Short profile',
+        'level' => 'Level',
+        'winner' => 'Winner (student/team)',
+        'year' => 'Year',
+        'description' => 'Description',
+        'coach' => 'Coach',
+        'schedule' => 'Schedule',
+        'code' => 'Code',
+        'unit_level' => 'Education level',
+        'npsn' => 'School ID (NPSN)',
+        'principal' => 'Principal',
+        'phone' => 'Phone',
+        'address' => 'Address',
+        'url' => 'Website',
+        'image' => 'Photo/logo',
+        'order' => 'Order',
+        'graduation_year' => 'Graduation year',
+        'activity' => 'Current activity',
+        'institution' => 'Institution/university',
+        'testimony' => 'Testimony',
+        'email' => 'Email',
+        'private_help' => 'Only visible to admins.',
+    ],
+
+    'types' => ['teacher' => 'Teacher', 'staff' => 'Staff'],
+
+    'levels' => [
+        'school' => 'School',
+        'district' => 'District',
+        'city' => 'Regency/City',
+        'province' => 'Province',
+        'national' => 'National',
+        'international' => 'International',
+    ],
+
+    'unit_levels' => ['tk' => 'Kindergarten', 'sd' => 'Primary', 'smp' => 'Junior secondary', 'sma' => 'Senior secondary', 'smk' => 'Vocational', 'other' => 'Other'],
+
+    'spmb' => [
+        'title' => 'New student admission',
+        'status_title' => 'Check application status',
+        'card_title' => 'Registration card',
+        'registrants' => 'Applicants',
+        'singular' => 'Applicant',
+        'settings' => 'Admission settings',
+        'closed' => 'Admission is currently closed.',
+        'not_found' => 'No match found. Please check the registration number and access code.',
+        'locked' => 'Too many attempts for this number. Try again in 15 minutes.',
+        'status_saved' => 'Applicant status saved.',
+        'settings_saved' => 'Admission settings saved.',
+        'fields' => [
+            'access_code' => 'Access code',
+            'number' => 'Registration no.',
+            'academic_year' => 'Academic year',
+            'full_name' => 'Full name',
+            'nisn' => 'Student ID (NISN)',
+            'gender' => 'Gender',
+            'birth_place' => 'Place of birth',
+            'birth_date' => 'Date of birth',
+            'previous_school' => 'Previous school',
+            'address' => 'Address',
+            'parent_name' => 'Parent/guardian name',
+            'parent_phone' => 'Parent/guardian phone',
+            'email' => 'Email',
+            'major_id' => 'Preferred major',
+            'status' => 'Status',
+            'created_at' => 'Registered at',
+        ],
+        'genders' => ['L' => 'Male', 'P' => 'Female'],
+        'documents' => [
+            'photo' => 'Passport photo',
+            'family_card' => 'Family card',
+            'birth_certificate' => 'Birth certificate',
+            'certificate' => 'Diploma/graduation letter',
+        ],
+        'statuses' => [
+            'submitted' => 'Submitted',
+            'verified' => 'Verified',
+            'accepted' => 'Accepted',
+            'rejected' => 'Not accepted',
+        ],
+    ],
+
+    'alumni' => [
+        'form_title' => 'Alumni registration',
+        'thanks' => 'Thank you! Your details will appear after an admin reviews them.',
+    ],
+];

@@ -1,0 +1,1 @@
+function r(i,l){if(i===null)return"";const e=["B","KB","MB","GB"];let n=i,t=0;for(;n>=1024&&t<e.length-1;)n/=1024,t++;return`${n.toLocaleString(l,{maximumFractionDigits:t===0?0:1})} ${e[t]}`}export{r as f};

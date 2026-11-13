@@ -1,0 +1,1 @@
+function a(e,t){return e.split("/").pop().replace(/\.vue$/,"").replace(new RegExp(`${t}$`),"").replace(/([a-z0-9])([A-Z])/g,"$1_$2").toLowerCase()}function o(e,t){return Object.fromEntries(Object.entries(e).map(([n,r])=>[a(n,t),r.default]))}export{o as c,a as k};

@@ -1,0 +1,1 @@
+import{d as t,o as n,c as o}from"./app-96LuoYy2.js";const c=["innerHTML"],l=t({__name:"SafeHtml",props:{html:{}},setup(e){return(r,s)=>(n(),o("div",{class:"rich-text",innerHTML:e.html},null,8,c))}});export{l as _};
