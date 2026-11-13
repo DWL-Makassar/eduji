@@ -83,7 +83,7 @@ class MenuController extends CrudController
         $menu = $record ?? new Menu;
         $menu->fill(['name' => $data['name'], 'location' => $data['location']])->save();
 
-        $menu->items()->delete();
+        $menu->clearItems();
 
         $parentId = null;
 

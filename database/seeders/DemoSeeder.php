@@ -143,7 +143,7 @@ class DemoSeeder extends Seeder
     protected function menus(): void
     {
         $header = Menu::updateOrCreate(['location' => 'header'], ['name' => 'Menu Utama']);
-        $header->items()->delete();
+        $header->clearItems();
 
         $item = fn (Menu $menu, string $label, string $url, int $order, ?int $parent = null) => $menu->items()->create([
             'label' => $label, 'url' => $url, 'target' => '_self', 'order' => $order, 'parent_id' => $parent, 'is_active' => true,
@@ -159,7 +159,7 @@ class DemoSeeder extends Seeder
         $item($header, 'Kontak', '/kontak', 5);
 
         $footer = Menu::updateOrCreate(['location' => 'footer'], ['name' => 'Menu Footer']);
-        $footer->items()->delete();
+        $footer->clearItems();
         $item($footer, 'Pengumuman', '/pengumuman', 0);
         $item($footer, 'Unduhan', '/unduhan', 1);
         $item($footer, 'Kontak', '/kontak', 2);

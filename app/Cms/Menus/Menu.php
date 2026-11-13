@@ -19,4 +19,10 @@ class Menu extends Model
     {
         return $this->hasMany(MenuItem::class)->orderBy('order');
     }
+
+    /** Hapus semua item. Tanpa ORDER BY: di MySQL, DELETE ... ORDER BY pada tabel dengan cascade ke dirinya sendiri menyisakan baris. */
+    public function clearItems(): void
+    {
+        $this->items()->reorder()->delete();
+    }
 }

@@ -156,7 +156,7 @@ class SchoolDemoSeeder extends DemoSeeder
 
         // Susunan menu template Formal: Profil, Kesiswaan, dan Informasi sebagai menu bertingkat.
         $header = Menu::updateOrCreate(['location' => 'header'], ['name' => 'Menu Utama']);
-        $header->items()->delete();
+        $header->clearItems();
         $item($header, 'Beranda', '/', 0);
         $group($header, 'Profil Sekolah', 1, [
             ['Profil & Sejarah', '/halaman/tentang-kami'], ['Visi & Misi', '/halaman/visi-misi'], ['Struktur Organisasi', '/halaman/struktur-organisasi'],
@@ -173,7 +173,7 @@ class SchoolDemoSeeder extends DemoSeeder
         $item($header, 'Kontak', '/kontak', 6);
 
         $footer = Menu::updateOrCreate(['location' => 'footer'], ['name' => 'Menu Footer']);
-        $footer->items()->delete();
+        $footer->clearItems();
         foreach ([['Profil Sekolah', '/halaman/tentang-kami'], ['Guru & Staf', '/guru-staf'], ['Galeri', '/galeri'], ['Cek Status SPMB', '/spmb/status'], ['Kebijakan Privasi', '/halaman/kebijakan-privasi'], ['Hubungi Kami', '/kontak']] as $i => [$label, $url]) {
             $item($footer, $label, $url, $i);
         }
